@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Oswald:wght@200;400;700&family=Poppins:wght@300;400;700;800&family=Roboto:wght@100;300;400&family=Ubuntu:ital@1&family=Work+Sans:wght@200;300;400;600;700;800&display=swap');
+/* Start Var */
+:root{
+    --main-color:#3a6cf4;
+}
+/* End Var */
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+/* Start Component */
+.social li a svg{
+    color: white;
+    font-size: 1.5em;
+    transition: 0.4s all ease-in-out;
+}
+.social li a .facebook:hover{
+    color: #1877F2;
+}
+.social li .twitter:hover{
+    color: #1DA1F2;
+}
+.social li .instagram:hover{
+    color: #E4405F;
+}
+.social li .email:hover{
+    color: #00AFF0;
+}
+/* End Component */
+/* Start navbar */
+
+.navbar-brand img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.navbar-nav .nav-item .nav-link{
+    transition: all ease-in-out 0.5s;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: black;
+}
+/* End navbar */
+/* Start Landing */
+.landing{
+    background-image: url(../Images/back-ground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    max-width: 100%;
+    min-height: calc( 100vh - 72px);
+}
+.title{
+    color:var(--main-color);
+    font-weight: 600;
+}
+.landing .main-btn{
+    display: block;
+    background-color: var(--main-color);
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+    width: fit-content;
+    padding: 0.9875em 2.1875em;
+    border-radius: 15px;
+    transition: all 0.7s ease;
+}
+.landing .main-btn:hover{
+    background-color: blue;
+    transform: scale(1.1);
+}
+/* End Landing */
+/* Start Services */
+.Services .card{
+    box-shadow: 0 5px 25px rgba( 1 1 1 / 15%);
+    transition: all ease 0.5s;
+    cursor: pointer;
+}
+.Services .card:hover{
+    transform: scale(1.1);
+}
+.card .icon{
+    color: var(--main-color);
+}
+.Services .card .card-title{
+    color: var(--main-color);
+}
+/* End Services */
+/* Start projects */
+.projects{
+    background-image: url(../Images/back-ground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.projects .card{
+    box-shadow: 0 5px 25px rgba( 1 1 1 / 15%);
+    transition: all ease 0.7s;
+    cursor: pointer;
+}
+.projects .card:hover{
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+.projects .card a{
+    transition: all 0.7s ease-in;
+}
+.projects .card a:hover{
+    color: black;
+
+}
+/* End projects */
+/* Start Contact me */
+.contact .card{
+    box-shadow: 0 5px 25px rgba( 1 1 1 / 15%);
+    transition: all ease 0.7s;
+    cursor: pointer;
+}
+.contact .card:hover{
+    transform: scale(1.1);
+}
+.contact .card a:hover{
+    transition: all ease 0.7s;
+    color: black;
+}
+/* End Contact me */
+/* Start Footer */
+.footer{
+    background-color: #000016   ;
+}
+.footer p span{
+    color: var(--main-color);
+}
+
+/* End Footer */
+
